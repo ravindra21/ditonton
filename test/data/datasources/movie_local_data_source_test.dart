@@ -16,7 +16,7 @@ void main() {
   });
 
   group('save watchlist', () {
-    test('should return success message when insert to database is success',
+    test('should return success message when insert to Database is success',
         () async {
       // arrange
       when(mockDatabaseHelper.insertWatchlist(testMovieTable))
