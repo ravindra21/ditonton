@@ -15,11 +15,17 @@ dependencies:
   core:
     path: ../core
   flutter_bloc: ^7.1.0
+  http: ^0.13.4
+  dartz: ^0.10.1
+  equatable: ^2.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+  mockito: ^5.0.17
+  bloc_test: ^8.5.0
+  build_runner: ^2.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

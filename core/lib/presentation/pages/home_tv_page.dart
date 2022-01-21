@@ -12,12 +12,7 @@ import 'package:core/presentation/pages/now_playing_tv_page.dart';
 import 'package:core/presentation/pages/popular_tv_page.dart';
 import 'package:watchlist/presentation/pages/watchlist_movies_page.dart';
 import 'package:watchlist/presentation/pages/watchlist_tv_page.dart';
-import 'package:core/presentation/provider/home_tv_notifier.dart';
-import 'package:core/common/state_enum.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
 
 class HomeTVPage extends StatefulWidget {
   static const ROUTE_NAME = '/tv-home';
