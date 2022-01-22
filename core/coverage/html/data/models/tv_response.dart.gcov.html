@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2022-01-20 19:21:06</td>
+            <td class="headerValue">2022-01-21 20:13:00</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">0</td>
@@ -66,13 +66,13 @@
 <a name="4"><span class="lineNum">       4 </span>            : class TVResponse extends Equatable {</a>
 <a name="5"><span class="lineNum">       5 </span>            :   final List&lt;TVModel&gt; tvList;</a>
 <a name="6"><span class="lineNum">       6 </span>            : </a>
-<a name="7"><span class="lineNum">       7 </span><span class="lineCov">          1 :   TVResponse({required this.tvList});</span></a>
+<a name="7"><span class="lineNum">       7 </span><span class="lineCov">          2 :   TVResponse({required this.tvList});</span></a>
 <a name="8"><span class="lineNum">       8 </span>            : </a>
-<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          2 :   factory TVResponse.fromJson(Map&lt;String, dynamic&gt; json) =&gt; TVResponse(</span></a>
-<a name="10"><span class="lineNum">      10 </span><span class="lineCov">          2 :         tvList: List&lt;TVModel&gt;.from((json['results'] as List)</span></a>
-<a name="11"><span class="lineNum">      11 </span><span class="lineCov">          3 :             .map((el) =&gt; TVModel.fromJson(el))</span></a>
-<a name="12"><span class="lineNum">      12 </span><span class="lineCov">          2 :             .where((el) =&gt;</span></a>
-<a name="13"><span class="lineNum">      13 </span><span class="lineCov">          1 :                 el.overview != null ||</span></a>
+<a name="9"><span class="lineNum">       9 </span><span class="lineCov">          4 :   factory TVResponse.fromJson(Map&lt;String, dynamic&gt; json) =&gt; TVResponse(</span></a>
+<a name="10"><span class="lineNum">      10 </span><span class="lineCov">          4 :         tvList: List&lt;TVModel&gt;.from((json['results'] as List)</span></a>
+<a name="11"><span class="lineNum">      11 </span><span class="lineCov">          6 :             .map((el) =&gt; TVModel.fromJson(el))</span></a>
+<a name="12"><span class="lineNum">      12 </span><span class="lineCov">          4 :             .where((el) =&gt;</span></a>
+<a name="13"><span class="lineNum">      13 </span><span class="lineCov">          2 :                 el.overview != null ||</span></a>
 <a name="14"><span class="lineNum">      14 </span><span class="lineNoCov">          0 :                 el.backdropPath != null ||</span></a>
 <a name="15"><span class="lineNum">      15 </span><span class="lineNoCov">          0 :                 el.posterPath != null)),</span></a>
 <a name="16"><span class="lineNum">      16 </span>            :       );</a>

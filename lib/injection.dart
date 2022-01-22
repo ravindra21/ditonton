@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:core/common/utils.dart';
 import 'package:core/data/datasources/db/database_helper.dart';
 import 'package:core/data/datasources/movie_local_data_source.dart';
@@ -20,7 +18,6 @@ import 'package:core/domain/usecases/get_top_rated_movies.dart';
 import 'package:core/domain/usecases/get_top_rated_tv.dart';
 import 'package:core/domain/usecases/get_tv_detail.dart';
 import 'package:core/domain/usecases/get_tv_recommendations.dart';
-import 'package:http/io_client.dart';
 import 'package:watchlist/presentation/bloc/watchlist_tv_bloc.dart';
 import 'package:watchlist/presentation/bloc/watchlist_movies_bloc.dart';
 import 'package:core/presentation/bloc/top_rated_tv_bloc.dart';
